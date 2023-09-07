@@ -8,7 +8,8 @@ import traceback  # Added for more detailed error tracing
 
 def save_text_to_file(pdf_path, full_text):
     pdf_directory = os.path.dirname(pdf_path)
-    text_file_path = os.path.join(pdf_directory, "extracted_text.txt")
+    filename = os.path.basename(pdf_path)
+    text_file_path = os.path.join(pdf_directory, f"extracted_text_from_{filename}.txt")
     with open(text_file_path, 'w') as f:
         f.write(full_text)
     print(f"Debug: Text has been saved to {text_file_path}")
@@ -60,4 +61,4 @@ def main(pdf_path):
 
     except Exception as e:
         print(f"An error occurred: {e}")
-        traceback.print_exc()  # This will print the error traceback, helping you to identify where the error occurred.
+        traceback.print_exc()  # This will print the error traceback, helping identify where the error occurred.
