@@ -1,0 +1,98 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>RNCH 11-107 CERT OF COUNSEL.pdf_image_1.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\RNCH 11-107 CERT OF COUNSEL.pdf_image_1.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1699</width>
+		<height>2218</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Filer Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>115</xmin>
+			<ymin>491</ymin>
+			<xmax>1135</xmax>
+			<ymax>742</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Parties Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>115</xmin>
+			<ymin>739</ymin>
+			<xmax>1127</xmax>
+			<ymax>925</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Case Number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1128</xmin>
+			<ymin>854</ymin>
+			<xmax>1633</xmax>
+			<ymax>937</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Filied Stamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1135</xmin>
+			<ymin>490</ymin>
+			<xmax>1630</xmax>
+			<ymax>863</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Document Title</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>118</xmin>
+			<ymin>920</ymin>
+			<xmax>1635</xmax>
+			<ymax>1000</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>1734</ymin>
+			<xmax>1633</xmax>
+			<ymax>2041</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>2047</ymin>
+			<xmax>1684</xmax>
+			<ymax>2218</ymax>
+		</bndbox>
+	</object>
+</annotation>

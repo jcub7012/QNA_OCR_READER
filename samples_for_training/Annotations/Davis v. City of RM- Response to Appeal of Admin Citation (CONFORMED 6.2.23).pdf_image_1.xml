@@ -1,0 +1,110 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>Davis v. City of RM- Response to Appeal of Admin Citation (CONFORMED 6.2.23).pdf_image_1.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\Davis v. City of RM- Response to Appeal of Admin Citation (CONFORMED 6.2.23).pdf_image_1.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Caption Page Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>194</ymin>
+			<xmax>1087</xmax>
+			<ymax>648</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Conformed Stamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>278</xmin>
+			<ymin>128</ymin>
+			<xmax>1575</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Exemption Notice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1131</xmin>
+			<ymin>53</ymin>
+			<xmax>1551</xmax>
+			<ymax>143</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Court</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>505</xmin>
+			<ymin>685</ymin>
+			<xmax>1392</xmax>
+			<ymax>865</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Parties Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>270</xmin>
+			<ymin>899</ymin>
+			<xmax>931</xmax>
+			<ymax>1255</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Case Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>931</xmin>
+			<ymin>897</ymin>
+			<xmax>1622</xmax>
+			<ymax>1253</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Page Number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>883</xmin>
+			<ymin>2080</ymin>
+			<xmax>1000</xmax>
+			<ymax>2126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>273</xmin>
+			<ymin>2114</ymin>
+			<xmax>1626</xmax>
+			<ymax>2167</ymax>
+		</bndbox>
+	</object>
+</annotation>

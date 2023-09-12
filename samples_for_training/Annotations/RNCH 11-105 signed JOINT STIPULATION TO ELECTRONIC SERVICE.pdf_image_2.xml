@@ -1,0 +1,74 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>RNCH 11-105 signed JOINT STIPULATION TO ELECTRONIC SERVICE.pdf_image_2.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\RNCH 11-105 signed JOINT STIPULATION TO ELECTRONIC SERVICE.pdf_image_2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Body Paragraph</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>259</xmin>
+			<ymin>201</ymin>
+			<xmax>1632</xmax>
+			<ymax>1183</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>277</xmin>
+			<ymin>1181</ymin>
+			<xmax>1627</xmax>
+			<ymax>1545</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Unsigned Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>264</xmin>
+			<ymin>1543</ymin>
+			<xmax>1629</xmax>
+			<ymax>1946</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Page Number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>909</xmin>
+			<ymin>2045</ymin>
+			<xmax>967</xmax>
+			<ymax>2090</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>2083</ymin>
+			<xmax>1630</xmax>
+			<ymax>2200</ymax>
+		</bndbox>
+	</object>
+</annotation>

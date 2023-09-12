@@ -1,0 +1,50 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>RM11-103 POS SUPPLEMENTAL BRIEF 9.7.2023.pdf_image_2.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\RM11-103 POS SUPPLEMENTAL BRIEF 9.7.2023.pdf_image_2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Case Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>100</xmin>
+			<ymin>124</ymin>
+			<xmax>1602</xmax>
+			<ymax>214</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>1055</ymin>
+			<xmax>1507</xmax>
+			<ymax>1277</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>2028</ymin>
+			<xmax>1690</xmax>
+			<ymax>2146</ymax>
+		</bndbox>
+	</object>
+</annotation>

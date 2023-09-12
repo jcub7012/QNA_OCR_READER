@@ -1,0 +1,98 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>OFFICIAL SERVICE 5.22-cv-02031 Heckman - Standing Order.pdf_image_43.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\OFFICIAL SERVICE 5.22-cv-02031 Heckman - Standing Order.pdf_image_43.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Conformed Stamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>46</ymin>
+			<xmax>1541</xmax>
+			<ymax>126</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Court</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>502</xmin>
+			<ymin>190</ymin>
+			<xmax>1378</xmax>
+			<ymax>321</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>1987</ymin>
+			<xmax>1685</xmax>
+			<ymax>2151</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Parties Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>209</xmin>
+			<ymin>326</ymin>
+			<xmax>868</xmax>
+			<ymax>838</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Case Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>875</xmin>
+			<ymin>316</ymin>
+			<xmax>1585</xmax>
+			<ymax>841</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Body Paragraph</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>853</ymin>
+			<xmax>1636</xmax>
+			<ymax>1755</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>1760</ymin>
+			<xmax>1453</xmax>
+			<ymax>1967</ymax>
+		</bndbox>
+	</object>
+</annotation>

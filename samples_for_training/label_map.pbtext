@@ -1,0 +1,152 @@
+item {
+  id: 1
+  name: 'Caption Page Information'
+}
+item {
+  id: 2
+  name: 'Court'
+}
+item {
+  id: 3
+  name: 'Parties Information'
+}
+item {
+  id: 4
+  name: 'Case Information'
+}
+item {
+  id: 5
+  name: 'Body Paragraph'
+}
+item {
+  id: 6
+  name: 'Page Number'
+}
+item {
+  id: 7
+  name: 'Footer'
+}
+item {
+  id: 8
+  name: 'Signature Box'
+}
+item {
+  id: 9
+  name: 'Usigned Signature Line'
+}
+item {
+  id: 10
+  name: 'Property Detail Report'
+}
+item {
+  id: 11
+  name: 'Court Information'
+}
+item {
+  id: 12
+  name: 'Addressee'
+}
+item {
+  id: 13
+  name: 'Hearing Information'
+}
+item {
+  id: 14
+  name: 'Details'
+}
+item {
+  id: 15
+  name: 'Received Stamp'
+}
+item {
+  id: 16
+  name: 'Certificate of Mailing'
+}
+item {
+  id: 17
+  name: 'Party Information'
+}
+item {
+  id: 18
+  name: 'Filed Stamp'
+}
+item {
+  id: 19
+  name: 'City Information'
+}
+item {
+  id: 20
+  name: 'Document Title'
+}
+item {
+  id: 21
+  name: 'Citation Information'
+}
+item {
+  id: 22
+  name: 'Ruling'
+}
+item {
+  id: 23
+  name: 'Exhibit'
+}
+item {
+  id: 24
+  name: 'Letter Photocopy'
+}
+item {
+  id: 25
+  name: 'Conformed Stamp'
+}
+item {
+  id: 26
+  name: 'Law Office Stamp'
+}
+item {
+  id: 27
+  name: 'Exemption Notice'
+}
+item {
+  id: 28
+  name: 'Reference Footnotes'
+}
+item {
+  id: 29
+  name: 'Footer Notes'
+}
+item {
+  id: 30
+  name: 'Filer Information'
+}
+item {
+  id: 31
+  name: 'Case Number'
+}
+item {
+  id: 32
+  name: 'Address'
+}
+item {
+  id: 33
+  name: 'POS Information'
+}
+item {
+  id: 34
+  name: 'Judge Name'
+}
+item {
+  id: 35
+  name: 'Department'
+}
+item {
+  id: 36
+  name: 'Documents Served'
+}
+item {
+  id: 37
+  name: 'Unsigned Signature Box'
+}
+item {
+  id: 38
+  name: 'Filied Stamp'
+}

@@ -1,0 +1,98 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>2022.12.14.Menninger.FINAL Notice of Withdrawal of Motion for Attorney's Fees.pdf_image_1.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\2022.12.14.Menninger.FINAL Notice of Withdrawal of Motion for Attorney's Fees.pdf_image_1.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Caption Page Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>221</ymin>
+			<xmax>1100</xmax>
+			<ymax>650</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Court</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>492</xmin>
+			<ymin>660</ymin>
+			<xmax>1378</xmax>
+			<ymax>792</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Parties Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>265</xmin>
+			<ymin>870</ymin>
+			<xmax>939</xmax>
+			<ymax>1377</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Case Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>936</xmin>
+			<ymin>858</ymin>
+			<xmax>1609</xmax>
+			<ymax>1372</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Body Paragraph</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>1428</ymin>
+			<xmax>1609</xmax>
+			<ymax>2011</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Page Number</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>912</xmin>
+			<ymin>2026</ymin>
+			<xmax>958</xmax>
+			<ymax>2065</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>268</xmin>
+			<ymin>2097</ymin>
+			<xmax>1609</xmax>
+			<ymax>2153</ymax>
+		</bndbox>
+	</object>
+</annotation>

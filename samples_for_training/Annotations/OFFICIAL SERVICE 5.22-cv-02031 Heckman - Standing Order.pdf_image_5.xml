@@ -1,0 +1,50 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>OFFICIAL SERVICE 5.22-cv-02031 Heckman - Standing Order.pdf_image_5.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\OFFICIAL SERVICE 5.22-cv-02031 Heckman - Standing Order.pdf_image_5.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>180</xmin>
+			<ymin>39</ymin>
+			<xmax>1523</xmax>
+			<ymax>90</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Body Paragraph</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>288</xmin>
+			<ymin>82</ymin>
+			<xmax>1523</xmax>
+			<ymax>2019</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>200</xmin>
+			<ymin>2047</ymin>
+			<xmax>1665</xmax>
+			<ymax>2167</ymax>
+		</bndbox>
+	</object>
+</annotation>

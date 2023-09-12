@@ -1,0 +1,62 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>OFFICIAL SERVICE 5.22-cv-02031 Heckman - Standing Order.pdf_image_20.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\OFFICIAL SERVICE 5.22-cv-02031 Heckman - Standing Order.pdf_image_20.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Law Office Stamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>52</xmin>
+			<ymin>2004</ymin>
+			<xmax>292</xmax>
+			<ymax>2085</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>2042</ymin>
+			<xmax>1648</xmax>
+			<ymax>2189</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Conformed Stamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>255</xmin>
+			<ymin>50</ymin>
+			<xmax>1482</xmax>
+			<ymax>127</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Body Paragraph</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>283</xmin>
+			<ymin>205</ymin>
+			<xmax>1598</xmax>
+			<ymax>1974</ymax>
+		</bndbox>
+	</object>
+</annotation>

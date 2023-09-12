@@ -74,9 +74,15 @@ def get_rois(images_np):
             elif key == ord("n"):
                 undo_stack.append((deepcopy(list_of_rectangles), deepcopy(confirmed_rectangles)))
                 redo_stack.clear()
+    
+                for rectangle in list_of_rectangles:
+                    label = input(f"Please enter a label for rectangle {rectangle}: ")
+                    rectangle.append(label)
+    
                 confirmed_rectangles.extend(deepcopy(list_of_rectangles))
                 list_of_rectangles.clear()
                 update_image(img)
+
 
             elif key == 26:  # Ctrl+Z
                 if undo_stack:
@@ -91,6 +97,11 @@ def get_rois(images_np):
                     undo_stack.append((deepcopy(list_of_rectangles), deepcopy(confirmed_rectangles)))
                     list_of_rectangles, confirmed_rectangles = redo_stack.pop()
                     update_image(img)
+            
+            elif key == ord("q"):
+                print("Exiting program.")
+                exit()
+
 
         rois.append(confirmed_rectangles.copy())
         cv2.destroyAllWindows()

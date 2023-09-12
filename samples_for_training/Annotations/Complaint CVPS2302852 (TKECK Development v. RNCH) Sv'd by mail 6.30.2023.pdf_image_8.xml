@@ -1,0 +1,26 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>Complaint CVPS2302852 (TKECK Development v. RNCH) Sv'd by mail 6.30.2023.pdf_image_8.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\Complaint CVPS2302852 (TKECK Development v. RNCH) Sv'd by mail 6.30.2023.pdf_image_8.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Letter Photocopy</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>622</xmin>
+			<ymin>120</ymin>
+			<xmax>1485</xmax>
+			<ymax>1867</ymax>
+		</bndbox>
+	</object>
+</annotation>

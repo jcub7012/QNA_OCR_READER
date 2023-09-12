@@ -4,16 +4,22 @@ from src.roi_selector import get_rois
 from src.text_processing import extract_text_from_images
 import numpy as np
 import os
+import json
+import shutil
 import traceback  # Added for more detailed error tracing
 
-def save_text_to_file(pdf_path, full_text):
+global pdf_directory
+
+def save_rois_to_json_file(pdf_path, all_rois):
     pdf_directory = os.path.dirname(pdf_path)
     filename = os.path.basename(pdf_path)
-    text_file_path = os.path.join(pdf_directory, f"extracted_text_from_{filename}.txt")
-    with open(text_file_path, 'w') as f:
-        f.write(full_text)
-    print(f"Debug: Text has been saved to {text_file_path}")
-    return text_file_path
+    json_file_path = os.path.join(pdf_directory, f"rois_from_{filename}.json")
+    
+    with open(json_file_path, 'w') as f:
+        json.dump(all_rois, f, indent=4)
+    
+    print(f"ROIs have been saved to {json_file_path}")
+    return json_file_path
 
 def main(pdf_path):
     try:
@@ -30,6 +36,12 @@ def main(pdf_path):
 
         all_rois = get_rois(images_np)
         print(f"Debug: All ROIs = {all_rois}")
+        if all_rois:
+            json_file_path = save_rois_to_json_file(pdf_path, all_rois)
+            subfolder_path = os.path.join(os.path.dirname(pdf_path), "processed")
+            if not os.path.exists(subfolder_path):
+                os.makedirs(subfolder_path)
+            shutil.move(pdf_path, os.path.join(subfolder_path, os.path.basename(pdf_path)))
         if not all_rois:
             print("Debug: No ROIs found. Exiting.")
             return None
@@ -39,9 +51,6 @@ def main(pdf_path):
         if not full_text:
             print("Debug: No text extracted. Exiting.")
             return None
-
-        text_file_path = save_text_to_file(pdf_path, full_text)
-        print(f"Debug: Text file saved at {text_file_path}")
 
         extracted_details = {
             "Attorney Info": extract_attorney_info(full_text),
@@ -56,8 +65,6 @@ def main(pdf_path):
         print("Debug: Extracted Details:")
         for key, value in extracted_details.items():
             print(f"{key}: {value}")
-
-        return text_file_path
 
     except Exception as e:
         print(f"An error occurred: {e}")

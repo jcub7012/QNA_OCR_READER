@@ -1,0 +1,62 @@
+<annotation>
+	<folder>converted_images</folder>
+	<filename>POS OF FINAL NOTICE WITHDRAWAL AND PROPOSED ORDER.pdf_image_2.png</filename>
+	<path>C:\Users\User\transcriber_clone_issue_1\trainingset\converted_images\POS OF FINAL NOTICE WITHDRAWAL AND PROPOSED ORDER.pdf_image_2.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1700</width>
+		<height>2200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Signature Box</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>1065</ymin>
+			<xmax>1563</xmax>
+			<ymax>1275</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Case Information</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>85</xmin>
+			<ymin>124</ymin>
+			<xmax>1597</xmax>
+			<ymax>216</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Document Title</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1473</xmin>
+			<ymin>89</ymin>
+			<xmax>1626</xmax>
+			<ymax>138</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Footer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>36</xmin>
+			<ymin>2028</ymin>
+			<xmax>1675</xmax>
+			<ymax>2172</ymax>
+		</bndbox>
+	</object>
+</annotation>
